@@ -72,7 +72,7 @@ src/
 
         Implementações específicas (ESP32)
 
-##🔁 FSM (Máquina de Estados)
+## 🔁 FSM (Máquina de Estados)
 
 A FSM controla o comportamento do sistema sem acessar hardware diretamente.
 
@@ -109,7 +109,7 @@ Drivers são definidos por contrato (trait):
 
    - Facilita portabilidade e testes
 
-##🛠 Setup do Ambiente (Linux)
+## 🛠 Setup do Ambiente (Linux)
 1️⃣ Instalar ESP-IDF
 
 git clone --recursive https://github.com/espressif/esp-idf.git ~/esp-idf
@@ -143,7 +143,7 @@ Ou especificando a porta:
 
 cargo +esp run -- --port /dev/ttyUSB0
 
-##📌 Projeto Extra
+## 📌 Projeto Extra
 
 Foi desenvolvido um projeto adicional utilizando FSM para controlar LED e buzzer, simulando diferentes estados e padrões.
 
@@ -155,7 +155,7 @@ O objetivo foi exercitar:
 
    - Arquitetura FSM reutilizável
 
-##🧭 Planejamento Futuro
+## 🧭 Planejamento Futuro
 
    - Expansão de drivers (GPIO, botão, buzzer)
 
@@ -171,7 +171,7 @@ O objetivo foi exercitar:
 
    - Integração com FPGA
 
-##🎓 Objetivo Final
+## 🎓 Objetivo Final
 
 Alcançar domínio técnico para desenvolver:
 
@@ -183,7 +183,7 @@ Alcançar domínio técnico para desenvolver:
 
    - Sistemas embarcados complexos
 
-##Utilizando:
+## Utilizando:
 
    - Rust
 
