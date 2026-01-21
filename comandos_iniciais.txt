@@ -1,0 +1,3 @@
+source ~/esp-idf/export.sh
+cargo +esp build
+cargo +esp run

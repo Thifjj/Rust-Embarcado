@@ -1,0 +1,19 @@
+[package]
+name = "esp32-blink"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp-idf-sys = { version = "0.34", features = ["binstart", "std"], default-features = false }
+esp-idf-hal = "0.43"
+log = "0.4"
+anyhow = "1"
+
+[build-dependencies]
+embuild = "0.31"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
